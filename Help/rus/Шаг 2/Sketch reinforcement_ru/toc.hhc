@@ -1,0 +1,71 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+	<meta name="generator" content="HelpNDoc Personal Edition 6.2.0.255">
+</head>
+
+<body>
+
+	<object type="text/site properties">
+		<param name="Font" value="Arial,8,204">
+		<param name="Window Styles" value="0x800025">
+	</object>
+    
+	<ul>
+
+	
+
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Запуск приложения и его результаты">
+				
+					<param name="Local" value="Newtopic1.htm">
+				
+			</object>
+
+	</li>
+
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Установка">
+				
+					<param name="Local" value="Newtopic.htm">
+				
+			</object>
+
+	</li>
+
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Получение эскизов">
+				
+					<param name="Local" value="Newtopic2.htm">
+				
+			</object>
+
+	</li>
+
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Получение эскизов на основе геометрии">
+				
+					<param name="Local" value="Newtopic3.htm">
+				
+			</object>
+
+	</li>
+
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Создание спецификаций">
+				
+					<param name="Local" value="Newtopic4.htm">
+				
+			</object>
+
+	</li>
+	
+	</ul>
+    
+</body>
+
+</html>
+

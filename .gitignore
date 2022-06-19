@@ -1,0 +1,17 @@
+
+Install_sketch/.vs/Install_sketch/v16/.suo
+Install_sketch/Debug/Install_sketch_22_02_21.msi
+Install_sketch/Debug/setup.exe
+Install_sketch/Install_sketch.sln
+Install_sketch/Install_sketch.suo
+Install_sketch/Install_sketch.vdproj
+Install_sketch/Release/InstallBrace_ru.msi
+Install_sketch/Release/setup.exe
+*.txt
+*.pdb
+*.dll
+*.cache
+*.xml
+SketchReinforcement/.vs/SketchReinforcement/v16/Server/sqlite3/storage.ide
+SketchReinforcement/.vs/SketchReinforcement/v16/.suo
+SketchReinforcement/.vs/SketchReinforcement/v16/Server/sqlite3/db.lock

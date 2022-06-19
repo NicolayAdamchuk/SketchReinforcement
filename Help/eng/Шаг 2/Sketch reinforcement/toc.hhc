@@ -1,0 +1,71 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+	<meta name="generator" content="HelpNDoc Personal Edition 6.2.0.255">
+</head>
+
+<body>
+
+	<object type="text/site properties">
+		<param name="Font" value="Arial,8,204">
+		<param name="Window Styles" value="0x800025">
+	</object>
+    
+	<ul>
+
+	
+
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Installation">
+				
+					<param name="Local" value="Installation.htm">
+				
+			</object>
+
+	</li>
+
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Running add-in and its results">
+				
+					<param name="Local" value="Runningadd-inanditsresults.htm">
+				
+			</object>
+
+	</li>
+
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Getting sketches using standard picture">
+				
+					<param name="Local" value="Gettingsketchesusingstandardpict.htm">
+				
+			</object>
+
+	</li>
+
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Preparation sketches (free form)">
+				
+					<param name="Local" value="Preparationsketchesfreeform.htm">
+				
+			</object>
+
+	</li>
+
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Create schedule with sketches">
+				
+					<param name="Local" value="Createschedulewithsketches.htm">
+				
+			</object>
+
+	</li>
+	
+	</ul>
+    
+</body>
+
+</html>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+ <AddIn Type="Application">
+    <Name>Эскизы арматуры</Name>
+    <Assembly>SketchReinforcement.dll</Assembly>
+    <ClientId>B21F0906-2606-411A-AAB3-9BCE1B9E6E2F</ClientId>
+    <FullClassName>SketchReinforcement.SketchReinforcementApp</FullClassName>
+    <VendorId>Ar-Cadia</VendorId>
+    <VendorDescription>Ar-Cadia, www.ar-cadia.com.ua</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Assembly>SketchReinforcement.dll</Assembly>
+    <ClientId>6E92D459-2313-4747-9D52-B6EF610001B4</ClientId>
+    <FullClassName>SketchReinforcement.SketchCommand</FullClassName>
+    <Text>Эскизы арматуры  -  команда</Text>
+    <Description>Эскизы арматуры</Description>
+    <VendorId>Ar-Cadia</VendorId>
+    <VendorDescription>Ar-Cadia, www.ar-cadia.com.ua</VendorDescription>
+  </AddIn>
+</RevitAddIns>

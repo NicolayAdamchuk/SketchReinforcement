@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Info1" xml:space="preserve">
+    <value>Неподходящее системное семейство ФОРМА СТЕРЖНЯ. Используйте формы стержней из версии 2016.</value>
+  </data>
+  <data name="Info2" xml:space="preserve">
+    <value>Сохраните файл до выполнения команды.</value>
+  </data>
+  <data name="NameImage" xml:space="preserve">
+    <value>Эскизы арматуры</value>
+    <comment>Имя кнопки</comment>
+  </data>
+  <data name="NamePanel" xml:space="preserve">
+    <value>Арматура: инструменты</value>
+    <comment>Имя панели</comment>
+  </data>
+  <data name="pathToHelp" xml:space="preserve">
+    <value>\\Resources\\Help\\Sketch reinforcement_ru.chm</value>
+    <comment>Путь к файду справки</comment>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>"Неподходящее системное семейство ФОРМА СТЕРЖНЯ. Используйте формы стержней из версии 2016."</value>
+  </data>
+  <data name="Title1" xml:space="preserve">
+    <value>проблема</value>
+    <comment>Заголовок окна</comment>
+  </data>
+  <data name="NameTransaction" xml:space="preserve">
+    <value>Эскизы арматуры</value>
+    <comment>Наименование транзакции</comment>
+  </data>
+  <data name="RadioSelectAll" xml:space="preserve">
+    <value>Создать эскизы для всех стержней</value>
+    <comment>Наименование радио-кнопки</comment>
+  </data>
+  <data name="RadioSelectSingle" xml:space="preserve">
+    <value>Создать эскизы для выбранных стержней</value>
+    <comment>Наименование радио-кнопки</comment>
+  </data>
+  <data name="RadiusBending" xml:space="preserve">
+    <value>Показать радиусы загиба</value>
+    <comment>Имя флага</comment>
+  </data>
+  <data name="UpdateManual" xml:space="preserve">
+    <value>Обновить ручные исправления</value>
+    <comment>Имя флага</comment>
+  </data>
+  <data name="SelectRebar" xml:space="preserve">
+    <value>Выберите отдельный стержень</value>
+    <comment>Запрос при выборе стержня</comment>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>По умолчанию</value>
+    <comment>Наименование кнопки</comment>
+  </data>
+  <data name="Radius" xml:space="preserve">
+    <value>Показать радиусы загиба</value>
+    <comment>Имя флага</comment>
+  </data>
+  <data name="TitleFormPreview" xml:space="preserve">
+    <value>Просмотр эскиза</value>
+    <comment>Заголовок окна</comment>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Отмена</value>
+    <comment>Имя кнопки</comment>
+  </data>
+  <data name="HSketch" xml:space="preserve">
+    <value>Высота эскиза</value>
+    <comment>Имя кнопки</comment>
+  </data>
+  <data name="HooksVisible" xml:space="preserve">
+    <value>Показать длину крюков</value>
+    <comment>Имя флага</comment>
+  </data>
+  <data name="ByView" xml:space="preserve">
+    <value>Создать эскизы для стержней текущего вида</value>
+  </data>
+  <data name="ByPartition" xml:space="preserve">
+    <value>Создать эскизы для выбранного раздела</value>
+  </data>
+  <data name="Folder" xml:space="preserve">
+    <value>Файл проекта находится в защищенной папке. Невозможно создать папку для размещения эскизов.</value>
+  </data>
+  <data name="DeleteSketch" xml:space="preserve">
+    <value>Удалить ВСЕ рисунки</value>
+  </data>
+  <data name="NameTransaction1" xml:space="preserve">
+    <value>Удаление эскизов</value>
+    <comment>Наименование транзакции</comment>
+  </data>
+  <data name="ByAxis" xml:space="preserve">
+    <value>Размеры по осям</value>
+  </data>
+  <data name="ShowAngle" xml:space="preserve">
+    <value>          Показать угол загиба</value>
+  </data>
+  <data name="LabelFont" xml:space="preserve">
+    <value>Шрифт</value>
+    <comment>Метка Шрифт</comment>
+  </data>
+  <data name="MaxLength" xml:space="preserve">
+    <value>Максимальная длина</value>
+    <comment>Имя метки</comment>
+  </data>
+  <data name="Overlap" xml:space="preserve">
+    <value>Нахлест</value>
+    <comment>Метка</comment>
+  </data>
+  <data name="GroupBox2" xml:space="preserve">
+    <value>       Для стандартных форм</value>
+    <comment>Имя обрамления</comment>
+  </data>
+  <data name="ShowDimLines" xml:space="preserve">
+    <value>Показать размерные линии</value>
+  </data>
+  <data name="PathToHelpFile" xml:space="preserve">
+    <value>c:\\ProgramData\\Autodesk\\ApplicationPlugins\\ADNPlugin-SketchReinforcement.bundle\\Contents\\Resources\\Help\\Sketch reinforcement_ru.chm</value>
+  </data>
+  <data name="HelpSection" xml:space="preserve">
+    <value>newtopic1.htm</value>
+  </data>
+  <data name="TabControl1" xml:space="preserve">
+    <value>Стандартные формы</value>
+  </data>
+  <data name="TabControl2" xml:space="preserve">
+    <value>Проектные формы</value>
+  </data>
+  <data name="VersionNumber" xml:space="preserve">
+    <value>Приложение предназначено для версии не старше 2023</value>
+  </data>
+  <data name="ShiftFromLine" xml:space="preserve">
+    <value>Смещение от линии</value>
+  </data>
+  <data name="ButtonFolder" xml:space="preserve">
+    <value>Выбор папки</value>
+  </data>
+  <data name="CheckFolder" xml:space="preserve">
+    <value>По умолчанию</value>
+  </data>
+  <data name="GroupFolder" xml:space="preserve">
+    <value>Папка для эскизов</value>
+  </data>
+  <data name="Border" xml:space="preserve">
+    <value>Внешняя граница</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>Цвет</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Выбрать все</value>
+  </data>
+  <data name="NameTransaction2" xml:space="preserve">
+    <value>Создание эскизов для марок</value>
+    <comment>Наименование транзакции</comment>
+  </data>
+  <data name="Warning2" xml:space="preserve">
+    <value>Не найдены семейства для создания эскизов-аннотаций. Создание эскизов для данного проекта невозможно. Отправьте запрос разработчикам (office@ar-cadia.com.ua) для решения проблемы.</value>
+  </data>
+  <data name="Warning3" xml:space="preserve">
+    <value>Нет  подходящих аннотаций для размещения эскизов арматуры или нет необходимости в изменениях. Или не подходящий активный вид.</value>
+  </data>
+  <data name="WorkProcess1" xml:space="preserve">
+    <value>Выполняем обработку существующих аннотаций...</value>
+  </data>
+  <data name="SelectTags" xml:space="preserve">
+    <value>Выберите марки арматуры</value>
+    <comment>Запрос при выборе стержня</comment>
+  </data>
+  <data name="Warning1" xml:space="preserve">
+    <value>Предупреждение</value>
+  </data>
+  <data name="WorkProcess2" xml:space="preserve">
+    <value>Выполняем обработку видов...</value>
+  </data>
+  <data name="BackGroundColor" xml:space="preserve">
+    <value>          Прозрачный фон</value>
+  </data>
+</root>
