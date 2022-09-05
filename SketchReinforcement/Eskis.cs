@@ -3675,7 +3675,7 @@ namespace SketchReinforcement
             TextOnRebar tor = new TextOnRebar();
             tor.rebar = rebar;
             // tor.position = c_straight.GetEndPoint(0);
-            tor.value = rbd.HookLength0 + rbd.BendRadius + rbd.BarModelDiameter;
+            tor.value = rbd.HookLength0 + rbd.HookBendRadius + rbd.BarModelDiameter;
             tor.start = c_straight.GetEndPoint(0);
             tor.end = c_straight.GetEndPoint(1);
             tor.position = (tor.start + tor.end) / 2;
@@ -3695,7 +3695,7 @@ namespace SketchReinforcement
             TextOnRebar tor = new TextOnRebar();
             tor.rebar = rebar;
             // tor.position = c_straight.GetEndPoint(1);
-            tor.value = rbd.HookLength1 + rbd.BendRadius + rbd.BarModelDiameter;
+            tor.value = rbd.HookLength1 + rbd.HookBendRadius + rbd.BarModelDiameter;
             tor.start = c_straight.GetEndPoint(1);
             tor.end = c_straight.GetEndPoint(0);
             tor.position = (tor.start + tor.end) / 2;
