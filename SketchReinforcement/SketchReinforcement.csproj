@@ -107,12 +107,12 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy "e:\OneDrive\Project 2023\SketchReinforcement\SketchReinforcement\bin\Debug\SketchReinforcement_2023.dll" "c:\ProgramData\Autodesk\ApplicationPlugins\ADNPlugin-SketchReinforcement_2023.bundle\Contents\SketchReinforcement_2023.dll"
-copy "e:\OneDrive\Project 2023\SketchReinforcement\SketchReinforcement\bin\Debug\ru\SketchReinforcement_2023.resources.dll" "c:\ProgramData\Autodesk\ApplicationPlugins\ADNPlugin-SketchReinforcement_2023.bundle\Contents\ru\SketchReinforcement_2023.resources.dll"
+    <PostBuildEvent>copy "e:\MyProject_2023\SketchReinforcement\SketchReinforcement\bin\Debug\SketchReinforcement_2023.dll" "c:\ProgramData\Autodesk\ApplicationPlugins\ADNPlugin-SketchReinforcement_2023.bundle\Contents\SketchReinforcement_2023.dll"
+copy "e:\MyProject_2023\SketchReinforcement\SketchReinforcement\bin\Debug\ru\SketchReinforcement_2023.resources.dll" "c:\ProgramData\Autodesk\ApplicationPlugins\ADNPlugin-SketchReinforcement_2023.bundle\Contents\ru\SketchReinforcement_2023.resources.dll"
 
 
-copy "e:\OneDrive\Project 2023\SketchReinforcement\SketchReinforcement\bin\Debug\SketchReinforcement_2023.dll"  "e:\OneDrive\Project 2023\ShellAllSketch\Content\Contents\SketchReinforcement_2023.dll" 
-copy "e:\OneDrive\Project 2023\SketchReinforcement\SketchReinforcement\bin\Debug\ru\SketchReinforcement_2023.resources.dll"  "e:\OneDrive\Project 2023\ShellAllSketch\Content\Contents\ru\SketchReinforcement_2023.resources.dll"</PostBuildEvent>
+copy "e:\MyProject_2023\SketchReinforcement\SketchReinforcement\bin\Debug\SketchReinforcement_2023.dll"  "e:\MyProject_2023\ShellAllSketch\Content\Contents\SketchReinforcement_2023.dll" 
+copy "e:\MyProject_2023\SketchReinforcement\SketchReinforcement\bin\Debug\ru\SketchReinforcement_2023.resources.dll"  "e:\MyProject_2023\ShellAllSketch\Content\Contents\ru\SketchReinforcement_2023.resources.dll"</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

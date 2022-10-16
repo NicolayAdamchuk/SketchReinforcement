@@ -31,38 +31,7 @@ namespace SketchReinforcement
 
         // void SketchReinforcement(Document doc, SortedList<string, CodeImage> sortedrebar, List<Element> rebar, List<Element> rebars, DataForm dataform, Template template, List<Element> all_images, StreamWriter writer = null)
         void SketchReinforcement()
-        {
-
-            //DateTime Start = DateTime.Now;
-            //DateTime Stoped = DateTime.Now;
-            //TimeSpan Elapsed = TimeSpan.Zero;
-            //Start = DateTime.Now;
-
-            //// получить список наименований эскизов
-            //List<string> name_skeths = new List<string>();
-            //foreach (Element e in rebars)
-            //{
-            //    name_skeths.Add(e.get_Parameter(BuiltInParameter.ALL_MODEL_IMAGE).AsValueString());
-            //}
-
-            //// получить список ID эскизов
-            //List<int> id_sketchs = new List<int>();
-            //foreach (Element e in rebars)
-            //{
-            //    id_sketchs.Add(e.get_Parameter(BuiltInParameter.ALL_MODEL_IMAGE).AsElementId().IntegerValue);
-            //}
-
-            //// получить список ID эскизов
-            //List<int> id_sketch = new List<int>();
-            //foreach (Element e in rebar)
-            //{
-            //    id_sketch.Add(e.get_Parameter(BuiltInParameter.ALL_MODEL_IMAGE).AsElementId().IntegerValue);
-            //}
-
-            //Stoped = DateTime.Now;
-            //Elapsed = Stoped.Subtract(Start);
-            //if (writer != null) writer.WriteLine("*Время выполнения подготовки общих списков");
-            //if (writer != null) writer.WriteLine(Convert.ToString(Elapsed.TotalSeconds));
+        {            
 
             // открываем цикл по сортированному списку стержней
             // foreach (CodeImage ci in sortedrebar.Values)
@@ -165,21 +134,11 @@ namespace SketchReinforcement
 
                 }
             create_sketch:
-                //Stoped = DateTime.Now;
-                //Elapsed = Stoped.Subtract(Start);
-                //if (writer != null) writer.WriteLine("*Время выполнения процедуры 2 этапа");
-                //if (writer != null) writer.WriteLine(Convert.ToString(Elapsed.TotalSeconds));
 
-                //Start = DateTime.Now;
 
-                // Eskis.CreateImage(doc, ci, template, dataform, image, imageId, writer);
 
                 CreateImage(ci, image, imageId);
-
-                //Stoped = DateTime.Now;
-                //Elapsed = Stoped.Subtract(Start);
-                //if (writer != null) writer.WriteLine("*Время выполнения создания эскиза" + image);
-                //if (writer != null) writer.WriteLine(Convert.ToString(Elapsed.TotalSeconds));
+              
             }
         }
 

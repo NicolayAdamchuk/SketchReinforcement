@@ -95,7 +95,7 @@ namespace SketchReinforcement
         // Tип шаблона
         Template template = Template.Other;
 
-        
+
         //public StreamWriter writer = new StreamWriter("E:\\sketch.txt");
         //public Stopwatch stopWatch = new Stopwatch();
         //public DateTime Start;
@@ -108,7 +108,7 @@ namespace SketchReinforcement
            , ref string message, ElementSet elements)
         {
 
-           
+
 
             string VN = commandData.Application.Application.VersionNumber;
             if (Convert.ToInt32(VN) > 2023)
@@ -118,9 +118,9 @@ namespace SketchReinforcement
             }
             Document document = commandData.Application.ActiveUIDocument.Document;
             dataform.units = document.GetUnits();
-         
+
             doc = commandData.Application.ActiveUIDocument.Document;
-            
+
             // получить стержни проекта
             FilteredElementCollector collector = new FilteredElementCollector(doc);
             all_rebars = collector.WherePasses(new ElementClassFilter(typeof(Rebar))).OfType<Element>().ToList();
@@ -134,7 +134,7 @@ namespace SketchReinforcement
             }
 
             if (all_rebars.Count() == 0) return Result.Failed;   // нет армирования в проекте
-                       
+
 
             // получить список наименований эскизов
             List<string> name_skeths = new List<string>();
@@ -150,10 +150,17 @@ namespace SketchReinforcement
             }
 
             // получить список РАЗДЕЛОВ арматуры                  
+            //IEnumerable<string> razdels =
+            //    all_rebars.Select(x =>
+            //    x.get_Parameter(BuiltInParameter.NUMBER_PARTITION_PARAM).AsString()).Distinct();
+
             IEnumerable<string> razdels =
-                all_rebars.Select(x =>
-                x.get_Parameter(BuiltInParameter.NUMBER_PARTITION_PARAM).AsString()).Distinct();
+                 (from r in all_rebars
+                  orderby r.get_Parameter(BuiltInParameter.NUMBER_PARTITION_PARAM).AsString() ascending
+                  select r.get_Parameter(BuiltInParameter.NUMBER_PARTITION_PARAM).AsString()).Distinct();
+        
             
+
             // записать список в данные приложения
             foreach (string s in razdels)
             {
@@ -1153,12 +1160,13 @@ namespace SketchReinforcement
         // public static void GetSortListRebars(Document doc,List<Element> all_rebar, SortedList<string, CodeImage> sortedImages)
         void GetSortListRebars()
         {
-            // выполняем выборку стержней по определенным признакам         
-            
+            sortedImages.Clear();
+
+            // выполняем выборку стержней по определенным признакам 
             foreach (Element el in all_rebar)
             {
                 if (el.GroupId.IntegerValue > 0) continue;
-
+               
                 //// стержни свободной формы пропускаем
                 //if (el.get_Parameter(BuiltInParameter.REBAR_GEOMETRY_TYPE).AsInteger() == 1) continue;
 

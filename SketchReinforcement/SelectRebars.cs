@@ -181,10 +181,16 @@ namespace SketchReinforcement
 
             if (dataform.IsRazdel)
             {
+                int w = 0;
                 foreach (string s in dataform.Razdels)
                 {
+                    w = Math.Max(w, 100 + s.Length*8);
                     this.checkedListRazdel.Items.Add(s);
-                }    
+                }                
+                if (w > 370) w = 370;
+                this.checkedListRazdel.Width = w;
+                this.Width = 813 - (370 - w);
+                if (this.Width < 660) this.Width = 660;
             }
             
         }
