@@ -737,7 +737,8 @@ namespace SketchReinforcement
                 dataform.Font_shift = ent_storage.Get<int>("ShiftFromLine");
 
                 double max_lenth = 39.37008;
-                max_lenth = Convert.ToDouble(ent_storage.Get<string>("MaxLength")); //, SpecTypeId.Custom);
+                string sss = ent_storage.Get<string>("MaxLength");
+                max_lenth = Convert.ToDouble(sss); // ,SpecTypeId.Custom));
                 if (max_lenth > 0) dataform.Max_Lenght = max_lenth;
 
                 bool is_dim_lines = false;

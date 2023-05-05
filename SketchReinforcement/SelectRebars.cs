@@ -93,6 +93,7 @@ namespace SketchReinforcement
                 labelFolder.Text = "";
                 buttonFolder.Enabled = false;
                 dataform.IspathFolder = false;
+                
             }
             else
             {
@@ -101,6 +102,7 @@ namespace SketchReinforcement
                 labelFolder.Text = dataform.pathFolder;
                 buttonFolder.Enabled = true;
                 dataform.IspathFolder = true;
+                 
             }
 
              
@@ -405,6 +407,7 @@ namespace SketchReinforcement
                 labelFolder.Visible = false;
                 buttonFolder.Enabled = false;
                 dataform.IspathFolder = false;
+                
 
             }
             else
@@ -412,6 +415,7 @@ namespace SketchReinforcement
                 labelFolder.Visible = true;
                 buttonFolder.Enabled = true;
                 dataform.IspathFolder = true;
+                labelFolder.Text = dataform.pathFolder;
             }
         }
 

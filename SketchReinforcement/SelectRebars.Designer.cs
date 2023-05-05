@@ -84,10 +84,10 @@
             // button1
             // 
             this.button1.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.button1.Location = new System.Drawing.Point(356, 29);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button1.Location = new System.Drawing.Point(316, 23);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(112, 35);
+            this.button1.Size = new System.Drawing.Size(100, 28);
             this.button1.TabIndex = 0;
             this.button1.Text = "OK";
             this.button1.UseVisualStyleBackColor = true;
@@ -96,10 +96,10 @@
             // button2
             // 
             this.button2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button2.Location = new System.Drawing.Point(488, 29);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button2.Location = new System.Drawing.Point(434, 23);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(112, 35);
+            this.button2.Size = new System.Drawing.Size(100, 28);
             this.button2.TabIndex = 1;
             this.button2.Text = "Cancel";
             this.button2.UseVisualStyleBackColor = true;
@@ -111,11 +111,11 @@
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.pictureBox1);
-            this.groupBox1.Location = new System.Drawing.Point(16, 616);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox1.Location = new System.Drawing.Point(11, 509);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox1.Size = new System.Drawing.Size(613, 78);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Size = new System.Drawing.Size(545, 62);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             // 
@@ -123,30 +123,30 @@
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.DarkRed;
-            this.label1.Location = new System.Drawing.Point(8, 53);
+            this.label1.Location = new System.Drawing.Point(7, 42);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(159, 20);
+            this.label1.Size = new System.Drawing.Size(134, 16);
             this.label1.TabIndex = 6;
             this.label1.Text = "www.ar-cadia.com.ua";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::SketchReinforcement.Properties.Resources.logo_ar_cadia;
-            this.pictureBox1.Location = new System.Drawing.Point(20, 19);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox1.Location = new System.Drawing.Point(18, 15);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(138, 45);
+            this.pictureBox1.Size = new System.Drawing.Size(123, 36);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
             // BySelect
             // 
             this.BySelect.AutoSize = true;
-            this.BySelect.Location = new System.Drawing.Point(13, 51);
-            this.BySelect.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.BySelect.Location = new System.Drawing.Point(12, 41);
+            this.BySelect.Margin = new System.Windows.Forms.Padding(4);
             this.BySelect.Name = "BySelect";
-            this.BySelect.Size = new System.Drawing.Size(113, 24);
+            this.BySelect.Size = new System.Drawing.Size(98, 20);
             this.BySelect.TabIndex = 1;
             this.BySelect.Text = "По выбору";
             this.BySelect.UseVisualStyleBackColor = true;
@@ -156,10 +156,10 @@
             // 
             this.AllRebars.AutoSize = true;
             this.AllRebars.Checked = true;
-            this.AllRebars.Location = new System.Drawing.Point(13, 14);
-            this.AllRebars.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.AllRebars.Location = new System.Drawing.Point(12, 11);
+            this.AllRebars.Margin = new System.Windows.Forms.Padding(4);
             this.AllRebars.Name = "AllRebars";
-            this.AllRebars.Size = new System.Drawing.Size(130, 24);
+            this.AllRebars.Size = new System.Drawing.Size(110, 20);
             this.AllRebars.TabIndex = 0;
             this.AllRebars.TabStop = true;
             this.AllRebars.Text = "Все стержни";
@@ -169,10 +169,10 @@
             // RadiusBending
             // 
             this.RadiusBending.AutoSize = true;
-            this.RadiusBending.Location = new System.Drawing.Point(410, 123);
-            this.RadiusBending.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.RadiusBending.Location = new System.Drawing.Point(364, 98);
+            this.RadiusBending.Margin = new System.Windows.Forms.Padding(4);
             this.RadiusBending.Name = "RadiusBending";
-            this.RadiusBending.Size = new System.Drawing.Size(231, 24);
+            this.RadiusBending.Size = new System.Drawing.Size(200, 20);
             this.RadiusBending.TabIndex = 3;
             this.RadiusBending.Text = "Показать радиусы загиба";
             this.RadiusBending.UseVisualStyleBackColor = true;
@@ -182,10 +182,10 @@
             // UpdateManual
             // 
             this.UpdateManual.AutoSize = true;
-            this.UpdateManual.Location = new System.Drawing.Point(410, 12);
-            this.UpdateManual.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.UpdateManual.Location = new System.Drawing.Point(364, 10);
+            this.UpdateManual.Margin = new System.Windows.Forms.Padding(4);
             this.UpdateManual.Name = "UpdateManual";
-            this.UpdateManual.Size = new System.Drawing.Size(271, 24);
+            this.UpdateManual.Size = new System.Drawing.Size(234, 20);
             this.UpdateManual.TabIndex = 4;
             this.UpdateManual.Text = "Обновить ручные исправления";
             this.UpdateManual.UseVisualStyleBackColor = true;
@@ -194,10 +194,10 @@
             // HooksLength
             // 
             this.HooksLength.AutoSize = true;
-            this.HooksLength.Location = new System.Drawing.Point(12, 204);
-            this.HooksLength.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.HooksLength.Location = new System.Drawing.Point(11, 163);
+            this.HooksLength.Margin = new System.Windows.Forms.Padding(4);
             this.HooksLength.Name = "HooksLength";
-            this.HooksLength.Size = new System.Drawing.Size(217, 24);
+            this.HooksLength.Size = new System.Drawing.Size(186, 20);
             this.HooksLength.TabIndex = 5;
             this.HooksLength.Text = "Показать длину крюков";
             this.HooksLength.UseVisualStyleBackColor = true;
@@ -206,10 +206,10 @@
             // ByView
             // 
             this.ByView.AutoSize = true;
-            this.ByView.Location = new System.Drawing.Point(13, 85);
-            this.ByView.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.ByView.Location = new System.Drawing.Point(12, 68);
+            this.ByView.Margin = new System.Windows.Forms.Padding(4);
             this.ByView.Name = "ByView";
-            this.ByView.Size = new System.Drawing.Size(95, 24);
+            this.ByView.Size = new System.Drawing.Size(81, 20);
             this.ByView.TabIndex = 6;
             this.ByView.Text = "По виду";
             this.ByView.UseVisualStyleBackColor = true;
@@ -217,10 +217,10 @@
             // byRazdel
             // 
             this.byRazdel.AutoSize = true;
-            this.byRazdel.Location = new System.Drawing.Point(13, 119);
-            this.byRazdel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.byRazdel.Location = new System.Drawing.Point(12, 95);
+            this.byRazdel.Margin = new System.Windows.Forms.Padding(4);
             this.byRazdel.Name = "byRazdel";
-            this.byRazdel.Size = new System.Drawing.Size(122, 24);
+            this.byRazdel.Size = new System.Drawing.Size(105, 20);
             this.byRazdel.TabIndex = 7;
             this.byRazdel.Text = "По разделу";
             this.byRazdel.UseVisualStyleBackColor = true;
@@ -229,9 +229,10 @@
             // RazdelCombo
             // 
             this.RazdelCombo.FormattingEnabled = true;
-            this.RazdelCombo.Location = new System.Drawing.Point(13, 151);
+            this.RazdelCombo.Location = new System.Drawing.Point(12, 121);
+            this.RazdelCombo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.RazdelCombo.Name = "RazdelCombo";
-            this.RazdelCombo.Size = new System.Drawing.Size(374, 28);
+            this.RazdelCombo.Size = new System.Drawing.Size(333, 24);
             this.RazdelCombo.TabIndex = 8;
             this.RazdelCombo.Visible = false;
             this.RazdelCombo.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
@@ -240,10 +241,10 @@
             // 
             this.DeleteSketch.AutoSize = true;
             this.DeleteSketch.Enabled = false;
-            this.DeleteSketch.Location = new System.Drawing.Point(409, 208);
-            this.DeleteSketch.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.DeleteSketch.Location = new System.Drawing.Point(364, 166);
+            this.DeleteSketch.Margin = new System.Windows.Forms.Padding(4);
             this.DeleteSketch.Name = "DeleteSketch";
-            this.DeleteSketch.Size = new System.Drawing.Size(202, 24);
+            this.DeleteSketch.Size = new System.Drawing.Size(173, 20);
             this.DeleteSketch.TabIndex = 9;
             this.DeleteSketch.Text = "Удалить ВСЕ рисунки";
             this.DeleteSketch.UseVisualStyleBackColor = true;
@@ -253,10 +254,10 @@
             // ByAxis
             // 
             this.ByAxis.AutoSize = true;
-            this.ByAxis.Location = new System.Drawing.Point(410, 51);
-            this.ByAxis.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.ByAxis.Location = new System.Drawing.Point(364, 41);
+            this.ByAxis.Margin = new System.Windows.Forms.Padding(4);
             this.ByAxis.Name = "ByAxis";
-            this.ByAxis.Size = new System.Drawing.Size(165, 24);
+            this.ByAxis.Size = new System.Drawing.Size(141, 20);
             this.ByAxis.TabIndex = 10;
             this.ByAxis.Text = "Размеры по осям";
             this.ByAxis.UseVisualStyleBackColor = true;
@@ -268,10 +269,10 @@
             this.ShowAngle.AutoSize = true;
             this.ShowAngle.Checked = true;
             this.ShowAngle.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.ShowAngle.Location = new System.Drawing.Point(15, 26);
-            this.ShowAngle.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.ShowAngle.Location = new System.Drawing.Point(13, 21);
+            this.ShowAngle.Margin = new System.Windows.Forms.Padding(4);
             this.ShowAngle.Name = "ShowAngle";
-            this.ShowAngle.Size = new System.Drawing.Size(240, 24);
+            this.ShowAngle.Size = new System.Drawing.Size(204, 20);
             this.ShowAngle.TabIndex = 11;
             this.ShowAngle.Text = "          Показать угол загиба";
             this.ShowAngle.UseVisualStyleBackColor = true;
@@ -280,26 +281,28 @@
             // comboFonts
             // 
             this.comboFonts.FormattingEnabled = true;
-            this.comboFonts.Location = new System.Drawing.Point(13, 236);
+            this.comboFonts.Location = new System.Drawing.Point(12, 189);
+            this.comboFonts.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboFonts.Name = "comboFonts";
-            this.comboFonts.Size = new System.Drawing.Size(185, 28);
+            this.comboFonts.Size = new System.Drawing.Size(165, 24);
             this.comboFonts.TabIndex = 12;
             this.comboFonts.SelectedIndexChanged += new System.EventHandler(this.ComboFonts_SelectedIndexChanged);
             // 
             // LabelFont
             // 
             this.LabelFont.AutoSize = true;
-            this.LabelFont.Location = new System.Drawing.Point(294, 244);
+            this.LabelFont.Location = new System.Drawing.Point(261, 195);
             this.LabelFont.Name = "LabelFont";
-            this.LabelFont.Size = new System.Drawing.Size(64, 20);
+            this.LabelFont.Size = new System.Drawing.Size(52, 16);
             this.LabelFont.TabIndex = 13;
             this.LabelFont.Text = "Шрифт";
             // 
             // MaxLenght
             // 
-            this.MaxLenght.Location = new System.Drawing.Point(42, 27);
+            this.MaxLenght.Location = new System.Drawing.Point(37, 22);
+            this.MaxLenght.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaxLenght.Name = "MaxLenght";
-            this.MaxLenght.Size = new System.Drawing.Size(185, 26);
+            this.MaxLenght.Size = new System.Drawing.Size(165, 22);
             this.MaxLenght.TabIndex = 14;
             this.MaxLenght.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.MaxLenght.TextChanged += new System.EventHandler(this.MaxLenght_TextChanged);
@@ -309,17 +312,18 @@
             // LabelMax
             // 
             this.LabelMax.AutoSize = true;
-            this.LabelMax.Location = new System.Drawing.Point(255, 30);
+            this.LabelMax.Location = new System.Drawing.Point(227, 24);
             this.LabelMax.Name = "LabelMax";
-            this.LabelMax.Size = new System.Drawing.Size(174, 20);
+            this.LabelMax.Size = new System.Drawing.Size(146, 16);
             this.LabelMax.TabIndex = 15;
             this.LabelMax.Text = "Максимальная длина";
             // 
             // CoefDiam
             // 
-            this.CoefDiam.Location = new System.Drawing.Point(42, 67);
+            this.CoefDiam.Location = new System.Drawing.Point(37, 54);
+            this.CoefDiam.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CoefDiam.Name = "CoefDiam";
-            this.CoefDiam.Size = new System.Drawing.Size(120, 26);
+            this.CoefDiam.Size = new System.Drawing.Size(107, 22);
             this.CoefDiam.TabIndex = 16;
             this.CoefDiam.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.CoefDiam.TextChanged += new System.EventHandler(this.CoefDiam_TextChanged);
@@ -329,18 +333,18 @@
             // 
             this.Label2.AutoSize = true;
             this.Label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Label2.Location = new System.Drawing.Point(173, 71);
+            this.Label2.Location = new System.Drawing.Point(154, 57);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(38, 22);
+            this.Label2.Size = new System.Drawing.Size(31, 18);
             this.Label2.TabIndex = 17;
             this.Label2.Text = "x Ø";
             // 
             // LabelDiam
             // 
             this.LabelDiam.AutoSize = true;
-            this.LabelDiam.Location = new System.Drawing.Point(255, 70);
+            this.LabelDiam.Location = new System.Drawing.Point(227, 56);
             this.LabelDiam.Name = "LabelDiam";
-            this.LabelDiam.Size = new System.Drawing.Size(73, 20);
+            this.LabelDiam.Size = new System.Drawing.Size(61, 16);
             this.LabelDiam.TabIndex = 18;
             this.LabelDiam.Text = "Нахлест";
             // 
@@ -349,10 +353,10 @@
             this.CheckShape.AutoSize = true;
             this.CheckShape.Checked = true;
             this.CheckShape.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.CheckShape.Location = new System.Drawing.Point(7, 30);
-            this.CheckShape.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.CheckShape.Location = new System.Drawing.Point(6, 24);
+            this.CheckShape.Margin = new System.Windows.Forms.Padding(4);
             this.CheckShape.Name = "CheckShape";
-            this.CheckShape.Size = new System.Drawing.Size(22, 21);
+            this.CheckShape.Size = new System.Drawing.Size(18, 17);
             this.CheckShape.TabIndex = 20;
             this.CheckShape.UseVisualStyleBackColor = true;
             this.CheckShape.CheckedChanged += new System.EventHandler(this.CheckShape_CheckedChanged);
@@ -360,10 +364,10 @@
             // ShowDimLines
             // 
             this.ShowDimLines.AutoSize = true;
-            this.ShowDimLines.Location = new System.Drawing.Point(42, 110);
-            this.ShowDimLines.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.ShowDimLines.Location = new System.Drawing.Point(37, 88);
+            this.ShowDimLines.Margin = new System.Windows.Forms.Padding(4);
             this.ShowDimLines.Name = "ShowDimLines";
-            this.ShowDimLines.Size = new System.Drawing.Size(246, 24);
+            this.ShowDimLines.Size = new System.Drawing.Size(212, 20);
             this.ShowDimLines.TabIndex = 22;
             this.ShowDimLines.Text = "Показать размерные линии";
             this.ShowDimLines.UseVisualStyleBackColor = true;
@@ -371,7 +375,8 @@
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(215, 238);
+            this.numericUpDown1.Location = new System.Drawing.Point(191, 190);
+            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             48,
             0,
@@ -383,7 +388,7 @@
             0,
             0});
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(64, 26);
+            this.numericUpDown1.Size = new System.Drawing.Size(57, 22);
             this.numericUpDown1.TabIndex = 21;
             this.numericUpDown1.Value = new decimal(new int[] {
             48,
@@ -396,10 +401,11 @@
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(5, 424);
+            this.tabControl1.Location = new System.Drawing.Point(1, 355);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(624, 184);
+            this.tabControl1.Size = new System.Drawing.Size(555, 147);
             this.tabControl1.TabIndex = 22;
             // 
             // tabPage1
@@ -412,10 +418,11 @@
             this.tabPage1.Controls.Add(this.CoefDiam);
             this.tabPage1.Controls.Add(this.CheckShape);
             this.tabPage1.Controls.Add(this.MaxLenght);
-            this.tabPage1.Location = new System.Drawing.Point(4, 29);
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(616, 151);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabPage1.Size = new System.Drawing.Size(547, 118);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Стандартные формы";
             // 
@@ -426,20 +433,21 @@
             this.tabPage2.Controls.Add(this.label_Shift_From_Line);
             this.tabPage2.Controls.Add(this.ShiftFromLine);
             this.tabPage2.Controls.Add(this.ShowAngle);
-            this.tabPage2.Location = new System.Drawing.Point(4, 29);
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(616, 151);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabPage2.Size = new System.Drawing.Size(547, 118);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Свободные формы";
             // 
             // checkBoxBackGround
             // 
             this.checkBoxBackGround.AutoSize = true;
-            this.checkBoxBackGround.Location = new System.Drawing.Point(15, 69);
-            this.checkBoxBackGround.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.checkBoxBackGround.Location = new System.Drawing.Point(13, 55);
+            this.checkBoxBackGround.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxBackGround.Name = "checkBoxBackGround";
-            this.checkBoxBackGround.Size = new System.Drawing.Size(212, 24);
+            this.checkBoxBackGround.Size = new System.Drawing.Size(175, 20);
             this.checkBoxBackGround.TabIndex = 25;
             this.checkBoxBackGround.Text = "          Transparent base   ";
             this.checkBoxBackGround.UseVisualStyleBackColor = true;
@@ -448,22 +456,23 @@
             // label_Shift_From_Line
             // 
             this.label_Shift_From_Line.AutoSize = true;
-            this.label_Shift_From_Line.Location = new System.Drawing.Point(80, 117);
+            this.label_Shift_From_Line.Location = new System.Drawing.Point(71, 94);
             this.label_Shift_From_Line.Name = "label_Shift_From_Line";
-            this.label_Shift_From_Line.Size = new System.Drawing.Size(161, 20);
+            this.label_Shift_From_Line.Size = new System.Drawing.Size(135, 16);
             this.label_Shift_From_Line.TabIndex = 24;
             this.label_Shift_From_Line.Text = "Смещение от линии";
             // 
             // ShiftFromLine
             // 
-            this.ShiftFromLine.Location = new System.Drawing.Point(14, 111);
+            this.ShiftFromLine.Location = new System.Drawing.Point(12, 89);
+            this.ShiftFromLine.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ShiftFromLine.Maximum = new decimal(new int[] {
             20,
             0,
             0,
             0});
             this.ShiftFromLine.Name = "ShiftFromLine";
-            this.ShiftFromLine.Size = new System.Drawing.Size(54, 26);
+            this.ShiftFromLine.Size = new System.Drawing.Size(48, 22);
             this.ShiftFromLine.TabIndex = 23;
             this.ShiftFromLine.ValueChanged += new System.EventHandler(this.ShiftFromLine_ValueChanged);
             // 
@@ -472,18 +481,21 @@
             this.groupFolder.Controls.Add(this.buttonFolder);
             this.groupFolder.Controls.Add(this.labelFolder);
             this.groupFolder.Controls.Add(this.checkFolder);
-            this.groupFolder.Location = new System.Drawing.Point(13, 321);
+            this.groupFolder.Location = new System.Drawing.Point(12, 257);
+            this.groupFolder.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupFolder.Name = "groupFolder";
-            this.groupFolder.Size = new System.Drawing.Size(612, 87);
+            this.groupFolder.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupFolder.Size = new System.Drawing.Size(544, 94);
             this.groupFolder.TabIndex = 23;
             this.groupFolder.TabStop = false;
             this.groupFolder.Text = "Папка для эскизов";
             // 
             // buttonFolder
             // 
-            this.buttonFolder.Location = new System.Drawing.Point(397, 30);
+            this.buttonFolder.Location = new System.Drawing.Point(353, 24);
+            this.buttonFolder.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonFolder.Name = "buttonFolder";
-            this.buttonFolder.Size = new System.Drawing.Size(187, 36);
+            this.buttonFolder.Size = new System.Drawing.Size(166, 29);
             this.buttonFolder.TabIndex = 2;
             this.buttonFolder.Text = "Выбрать папку";
             this.buttonFolder.UseVisualStyleBackColor = true;
@@ -492,19 +504,21 @@
             // labelFolder
             // 
             this.labelFolder.AutoSize = true;
-            this.labelFolder.Location = new System.Drawing.Point(12, 88);
+            this.labelFolder.Location = new System.Drawing.Point(14, 65);
             this.labelFolder.Name = "labelFolder";
-            this.labelFolder.Size = new System.Drawing.Size(0, 20);
+            this.labelFolder.Size = new System.Drawing.Size(70, 16);
             this.labelFolder.TabIndex = 1;
+            this.labelFolder.Text = "_________";
             // 
             // checkFolder
             // 
             this.checkFolder.AutoSize = true;
             this.checkFolder.Checked = true;
             this.checkFolder.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkFolder.Location = new System.Drawing.Point(16, 37);
+            this.checkFolder.Location = new System.Drawing.Point(14, 30);
+            this.checkFolder.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkFolder.Name = "checkFolder";
-            this.checkFolder.Size = new System.Drawing.Size(145, 24);
+            this.checkFolder.Size = new System.Drawing.Size(125, 20);
             this.checkFolder.TabIndex = 0;
             this.checkFolder.Text = "По умолчанию";
             this.checkFolder.UseVisualStyleBackColor = true;
@@ -517,9 +531,10 @@
             0,
             0,
             0});
-            this.numericBorder.Location = new System.Drawing.Point(215, 280);
+            this.numericBorder.Location = new System.Drawing.Point(191, 224);
+            this.numericBorder.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.numericBorder.Name = "numericBorder";
-            this.numericBorder.Size = new System.Drawing.Size(64, 26);
+            this.numericBorder.Size = new System.Drawing.Size(57, 22);
             this.numericBorder.TabIndex = 24;
             this.numericBorder.Value = new decimal(new int[] {
             10,
@@ -531,9 +546,9 @@
             // labelBorder
             // 
             this.labelBorder.AutoSize = true;
-            this.labelBorder.Location = new System.Drawing.Point(294, 282);
+            this.labelBorder.Location = new System.Drawing.Point(261, 226);
             this.labelBorder.Name = "labelBorder";
-            this.labelBorder.Size = new System.Drawing.Size(143, 20);
+            this.labelBorder.Size = new System.Drawing.Size(120, 16);
             this.labelBorder.TabIndex = 25;
             this.labelBorder.Text = "Внешняя граница";
             this.labelBorder.Click += new System.EventHandler(this.LabelBorder_Click);
@@ -541,27 +556,29 @@
             // comboColor
             // 
             this.comboColor.FormattingEnabled = true;
-            this.comboColor.Location = new System.Drawing.Point(410, 236);
+            this.comboColor.Location = new System.Drawing.Point(364, 189);
+            this.comboColor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboColor.Name = "comboColor";
-            this.comboColor.Size = new System.Drawing.Size(118, 28);
+            this.comboColor.Size = new System.Drawing.Size(105, 24);
             this.comboColor.TabIndex = 26;
             this.comboColor.SelectedIndexChanged += new System.EventHandler(this.ComboColor_SelectedIndexChanged);
             // 
             // LabelColor
             // 
             this.LabelColor.AutoSize = true;
-            this.LabelColor.Location = new System.Drawing.Point(548, 240);
+            this.LabelColor.Location = new System.Drawing.Point(487, 192);
             this.LabelColor.Name = "LabelColor";
-            this.LabelColor.Size = new System.Drawing.Size(48, 20);
+            this.LabelColor.Size = new System.Drawing.Size(39, 16);
             this.LabelColor.TabIndex = 27;
             this.LabelColor.Text = "Цвет";
             // 
             // checkedListRazdel
             // 
             this.checkedListRazdel.FormattingEnabled = true;
-            this.checkedListRazdel.Location = new System.Drawing.Point(409, 12);
+            this.checkedListRazdel.Location = new System.Drawing.Point(364, 10);
+            this.checkedListRazdel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkedListRazdel.Name = "checkedListRazdel";
-            this.checkedListRazdel.Size = new System.Drawing.Size(370, 188);
+            this.checkedListRazdel.Size = new System.Drawing.Size(329, 140);
             this.checkedListRazdel.TabIndex = 28;
             this.checkedListRazdel.Visible = false;
             this.checkedListRazdel.SelectedIndexChanged += new System.EventHandler(this.CheckedListRazdel_SelectedIndexChanged);
@@ -570,9 +587,10 @@
             // 
             this.checkBoxAllRazdel.AutoSize = true;
             this.checkBoxAllRazdel.Enabled = false;
-            this.checkBoxAllRazdel.Location = new System.Drawing.Point(255, 153);
+            this.checkBoxAllRazdel.Location = new System.Drawing.Point(227, 122);
+            this.checkBoxAllRazdel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxAllRazdel.Name = "checkBoxAllRazdel";
-            this.checkBoxAllRazdel.Size = new System.Drawing.Size(132, 24);
+            this.checkBoxAllRazdel.Size = new System.Drawing.Size(111, 20);
             this.checkBoxAllRazdel.TabIndex = 3;
             this.checkBoxAllRazdel.Text = "Выбрать все";
             this.checkBoxAllRazdel.UseVisualStyleBackColor = true;
@@ -581,16 +599,15 @@
             // 
             // SelectRebars
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(791, 730);
+            this.ClientSize = new System.Drawing.Size(703, 584);
             this.Controls.Add(this.checkBoxAllRazdel);
             this.Controls.Add(this.checkedListRazdel);
             this.Controls.Add(this.LabelColor);
             this.Controls.Add(this.comboColor);
             this.Controls.Add(this.labelBorder);
             this.Controls.Add(this.numericBorder);
-            this.Controls.Add(this.groupFolder);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.LabelFont);
@@ -606,9 +623,10 @@
             this.Controls.Add(this.UpdateManual);
             this.Controls.Add(this.RadiusBending);
             this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.groupFolder);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.HelpButton = true;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "SelectRebars";
