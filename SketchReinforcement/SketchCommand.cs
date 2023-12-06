@@ -107,15 +107,16 @@ namespace SketchReinforcement
         public virtual Result Execute(ExternalCommandData commandData
            , ref string message, ElementSet elements)
         {
-
-
-
             string VN = commandData.Application.Application.VersionNumber;
-            if (Convert.ToInt32(VN) > 2023)
+
+#if RVT2024
+
+            if (Convert.ToInt32(VN) > 2024)
             {
                 MessageBox.Show(Resourses.Strings.Texts.VersionNumber);
                 return Result.Cancelled;
             }
+#endif
             Document document = commandData.Application.ActiveUIDocument.Document;
             dataform.units = document.GetUnits();
 
